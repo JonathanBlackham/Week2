@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int main()
+int m()
 {
  // dataType variableName;
 	int age;
@@ -35,6 +35,37 @@ int main()
 	int newestAge = 25;
 
 
+	int a = 10;
+	int b = 3;
+
+	int add = a + b; // 13
+	int subtract = 10 - b; //7
+	int multiply = a * 3; // 30
+	int devision = a / b; // 3 or 3.3333
+	int mod = a % b; // 1
+	float div2 = 10 / 3.0f; // 3.3333
+
+	cout << div2 << endl;
+
+	int result = 1 + 2 * 3 + 4; // 13 or 11
+	cout << result << endl;
+
+	int x = 10; 
+	x = x + 20; // same as x += 20;
+	x += 20; // same as x = x + 20;
+	x -= 10; // same as x = x - 10;
+	x *= 10; // same as x = x * 10;
+	x /= 10; // same as x = x / 10;
+	x %= 10; // same as x = x % 10;
+
+	float myFloat = 30.5f;
+	int myInt = (int) myFloat;
+
+	int a = 20;
+	float b = (float) a;
+
+	int result = (int) (2.4 + 1.6); 
+	cout << result << endl;
 
 }
 
