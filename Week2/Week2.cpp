@@ -67,6 +67,45 @@ int m()
 	int result = (int) (2.4 + 1.6); 
 	cout << result << endl;
 
+	int numEntered1 = 0;
+	int numEntered2 = 0;
+	int numEntered3 = 0;
+	int numEntered4 = 0;
+	int numEntered5 = 0;
+
+	std::cout << "Enter a whole number: ";
+	std::cin >> numEntered1;
+	std::cout << "Enter another whole number: ";
+	std::cin >> numEntered2;
+	std::cout << "Enter a third whole number: ";
+	std::cin >> numEntered3;
+	std::cout << "Enter a fourth whole number: ";
+	std::cin >> numEntered4;
+	std::cout << "Enter a fifth whole number: ";
+	std::cin >> numEntered5;
+	std::cout << "\n";
+	int finalResult = numEntered1 + numEntered2 + numEntered3 + numEntered4 + numEntered5 / 5;
+	std::cout << "The average of the five numbers is: " << finalResult << "\n";
+	std::cout << "The sum of the five numbers is: " << numEntered1 + numEntered2 + numEntered3 + numEntered4 + numEntered5 << "\n";
+	std::cout << "Calculate, display the sum and product of the numbers entered: " << numEntered1 << " + " << numEntered2 << " + " << numEntered3 << " + " << numEntered4 << " + " << numEntered5 << " /5 " << "\n";
+
+	float inches;
+	std::cout << "Enter the number of inches: ";
+	std::cin >> inches;
+
+	float feet = inches / 12;
+	std::cout << "In feet: " << feet << std::endl;
+
+	float centermeters = inches * 2.54;
+	std::cout << "In centimeters: " << centermeters << std::endl;
+
+	float meters = inches * 0.0254;
+	std::cout << "In meters: " << meters << std::endl;
+
+
+	
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
