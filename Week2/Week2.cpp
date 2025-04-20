@@ -103,6 +103,57 @@ int m()
 	std::cout << "In meters: " << meters << std::endl;
 
 
+	int minerals;
+	int addMinerals;
+	int subMinerals;
+	int energy;
+	int addEnergy;
+	int subEnergy;
+	int alloys;
+	int addAlloys;
+	int subAlloys;
+	int surplusAlloys;
+	int monthsMinerals;
+
+
+
+	std::cout << "Enter mouthly mineral production: ";
+	std::cin >> addMinerals;
+	std::cout << "Enter monthly mineral consumption: ";
+	std::cin >> subMinerals;
+	std::cout << "Enter mouthly energy production: ";
+	std::cin >> addEnergy;
+	std::cout << "Enter monthly energy consumption: ";
+	std::cin >> subEnergy;
+	std::cout << "Enter mouthly alloys production: ";
+	std::cin >> addAlloys;
+	std::cout << "Enter monthly alloys consumption: ";
+	std::cin >> subAlloys;
+	minerals = addMinerals - subMinerals;
+	energy = addEnergy - subEnergy;
+	alloys = addAlloys - subAlloys;
+	monthsMinerals = minerals;
+	std::cout << "Minerals: " << minerals << std::endl;
+	std::cout << "Energy: " << energy << std::endl;
+	std::cout << "Alloys: " << alloys << std::endl;
+	std::cout << "Net resources per month: " << std::endl;
+	std::cout << "Minerals " << minerals << std::endl;
+	std::cout << "Energy " << energy << std::endl;
+	std::cout << "Alloys " << alloys << std::endl;
+
+	std::cout << "Net resources for 6 month: " << std::endl;
+	std::cout << "Minerals " << minerals * 6 << std::endl;
+	std::cout << "Energy " << energy * 6 << std::endl;
+	std::cout << "Alloys " << alloys * 6 << std::endl;
+	std::cout << "Net resources for 12 month: " << std::endl;
+	std::cout << "Minerals " << minerals * 12 << std::endl;
+	std::cout << "Energy " << energy * 12 << std::endl;
+	std::cout << "Alloys " << alloys * 12 << std::endl;
+	surplusAlloys = monthsMinerals * 0.2f;
+	std::cout << "additional alloys produced from surplus minerals: " << "After 6 months: " << surplusAlloys * 6 << std::endl;
+	std::cout << "after 12 months: " << surplusAlloys * 12 << std::endl;
+
+
 	
 
 
