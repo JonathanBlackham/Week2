@@ -57,7 +57,10 @@ int m()
 	x *= 10; // same as x = x * 10;
 	x /= 10; // same as x = x / 10;
 	x %= 10; // same as x = x % 10;
-
+	x++; // same as x = x + 1;
+	x--; // same as x = x - 1;
+	++x; // same as x = x + 1;
+	--x; // same as x = x - 1;
 	float myFloat = 30.5f;
 	int myInt = (int) myFloat;
 
