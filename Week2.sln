@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Branching and If Statements
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch Statements, Errors and Debugging", "Switch Statements, Errors and Debugging\Switch Statements, Errors and Debugging.vcxproj", "{D0CA69BC-962F-42EA-89EC-0C6B75AE1789}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scope Explorer", "Scope Explorer\Scope Explorer.vcxproj", "{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fix the Broken Project", "Fix the Broken Project\Fix the Broken Project.vcxproj", "{DBC1F8AC-639B-4323-8F52-C30D5317274E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{D0CA69BC-962F-42EA-89EC-0C6B75AE1789}.Release|x64.Build.0 = Release|x64
 		{D0CA69BC-962F-42EA-89EC-0C6B75AE1789}.Release|x86.ActiveCfg = Release|Win32
 		{D0CA69BC-962F-42EA-89EC-0C6B75AE1789}.Release|x86.Build.0 = Release|Win32
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Debug|x64.ActiveCfg = Debug|x64
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Debug|x64.Build.0 = Debug|x64
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Debug|x86.Build.0 = Debug|Win32
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Release|x64.ActiveCfg = Release|x64
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Release|x64.Build.0 = Release|x64
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Release|x86.ActiveCfg = Release|Win32
+		{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}.Release|x86.Build.0 = Release|Win32
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Debug|x64.ActiveCfg = Debug|x64
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Debug|x64.Build.0 = Debug|x64
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Debug|x86.Build.0 = Debug|Win32
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Release|x64.ActiveCfg = Release|x64
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Release|x64.Build.0 = Release|x64
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Release|x86.ActiveCfg = Release|Win32
+		{DBC1F8AC-639B-4323-8F52-C30D5317274E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

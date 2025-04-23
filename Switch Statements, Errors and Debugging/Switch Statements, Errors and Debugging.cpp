@@ -6,23 +6,34 @@ using namespace std;
 
 int main()
 {
-    int option = 2;
+	int option = 2;
 
 	switch (option)
 	{
 	case 1:
+	{
 		cout << "Option 1 selected";
 		break;
+	}
 	case 2:
+	{
 		cout << "Option 2 selected";
 		break;
+	}
 	case 3:
+	{
 		cout << "Option 3 selected";
 		break;
-	default:
-		cout << "Invalid option selected";
-		break;
 	}
+	default:
+	{
+		cout << "Invalid option selected";
+		return 0;
+	}
+
+	}
+
+
 
 	enum DayOfWeek
 	{
@@ -45,18 +56,18 @@ int main()
 		cout << "Today is not Wednesday" << endl;
 	}
 
-enum gameState
-{
-mainMenu,
-playing,
-gameOver
-};
+	enum gameState
+	{
+		mainMenu,
+		playing,
+		gameOver
+	};
 
-gameState currentGameState = mainMenu;
+	gameState currentGameState = mainMenu;
 
-switch (currentGameState)
-{
-    case mainMenu:
+	switch (currentGameState)
+	{
+	case mainMenu:
 	{
 		showMainMenu();
 		break;
@@ -71,14 +82,39 @@ switch (currentGameState)
 		showGameOverScreen();
 		break;
 	}
+	default:
+	{
+		cout << "Unknown game state";
+		return 0;
+	}
+	}
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+	int playerHealth = 100;
+	int damageTaken;
+	string gameState = "Playing";
+
+	cout << "Enter damage taken: ";
+	cin >> damageTaken;
+
+	if (damageTaken > 0 && damageTaken < playerHealth)
+	{
+		playerHealth = playerHealth - damageTaken;
+	}
+	else if (damageTaken >= playerHealth)
+	{
+		gameState = "Game Over";
+		playerHealth = 0;
+	}
+
+	if (playerHealth > 0)
+	{
+		gameState = "Game Over";
+	}
+
+
+	cout << "Player health: " << playerHealth << endl;
+	cout << "Game State: " << gameState << endl;
+
+	return 0;
+}
