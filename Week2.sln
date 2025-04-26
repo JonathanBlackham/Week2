@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drinks Machine Simulator", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Text Adventure Game", "Text Adventure Game\Text Adventure Game.vcxproj", "{6535E329-52EA-4EB5-AA84-97471E4E436F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Five Functions", "Five Functions\Five Functions.vcxproj", "{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{6535E329-52EA-4EB5-AA84-97471E4E436F}.Release|x64.Build.0 = Release|x64
 		{6535E329-52EA-4EB5-AA84-97471E4E436F}.Release|x86.ActiveCfg = Release|Win32
 		{6535E329-52EA-4EB5-AA84-97471E4E436F}.Release|x86.Build.0 = Release|Win32
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Debug|x64.ActiveCfg = Debug|x64
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Debug|x64.Build.0 = Debug|x64
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Debug|x86.Build.0 = Debug|Win32
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Release|x64.ActiveCfg = Release|x64
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Release|x64.Build.0 = Release|x64
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Release|x86.ActiveCfg = Release|Win32
+		{180CA7B3-3E63-4EAC-B9FD-0A74BEAD1FFC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
