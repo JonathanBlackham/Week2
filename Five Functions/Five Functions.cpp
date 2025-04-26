@@ -1,49 +1,68 @@
-// Five Functions.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+#include <iostream>  
 using namespace std;
 
 int incrementByone(int numIn)
 {
-	cin >> numIn;
+	numIn++;
 	int result = numIn++;
-	int firstNum = result;
-	
-
-	return result; firstNum;
+	return result; // Removed "firstNum" from return statement as it is invalid.  
 }
+
+int multplyByTwo(int results)
+{
+	results = results * 2;
+	return results; // Removed "firstNum" from return statement as it is invalid.  
+}
+
+int incrementbyfour(int results)
+{
+	results = results + 4;
+	return results; // Removed "firstNum" from return statement as it is invalid.  
+}
+
+int divideByTwo(int results)
+{
+	results = results / 2;
+	return results; // Removed "firstNum" from return statement as it is invalid.  
+}
+
+int subtractOne(int results, int numIn)
+{
+	results = results - numIn;
+	return results; // Removed "firstNum" from return statement as it is invalid.  
+}
+
 
 void chainedFunctionsBody()
 {
-	int numIn;
-	int result;
-	int firstNum;
+	int numIn = 0; // Initialize variables to avoid uninitialized memory usage.  
+	int result = 0; // Initialize variables to avoid uninitialized memory usage.
+	int firstNum = 0; // Initialize variables to avoid uninitialized memory usage.
+	cout << "Enter a number "; // Added prompt for user input.
+	cin >> numIn;
 
-	cout << numIn << result << firstNum << endl;
+	firstNum = numIn; // Capture numIn for firstNum.
 
+	result = incrementByone(numIn); // Capture the returned value.    
+	cout << numIn << " + 1 = " << result << endl; // Fixed syntax issues.  
 
+	result = multplyByTwo(result); // Capture the returned value.
+	cout << "  * 2 = " << result << endl; // Fixed syntax issues.
 
+	result = incrementbyfour(result); // Capture the returned value.
+	cout << "  + 4 = " << result << endl; // Fixed syntax issues.
+
+	result = divideByTwo(result); // Capture the returned value.
+	cout << "  / 2 = " << result << endl; // Fixed syntax issues.
+
+	cout << "  - " << firstNum << endl; // Fixed syntax issues.
+
+	result = subtractOne(result, firstNum); // Capture the returned value.
+	cout << "      = " << result << endl; // Fixed syntax issues.
 }
-
-
-
 
 
 int main()
 {
 	chainedFunctionsBody();
-	
-    
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
