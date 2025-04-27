@@ -24,7 +24,7 @@
     <ProjectGuid>{c7e245f5-65b9-4ccb-8681-c93f7a9e6d3b}</ProjectGuid>
     <RootNamespace>IfStatements</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Branching and If Statements</ProjectName>
+    <ProjectName>VidBranching and If Statements</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

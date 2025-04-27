@@ -13,7 +13,6 @@ int main()
 	if (x < 4)
 	{
 		x++; // increment x by 1
-
 		std::cout << "x is less than 4, incremented x to " << x << std::endl;
 	}
 
@@ -107,7 +106,9 @@ int main()
 		cout << "complex condition not met" << endl;
     }
 		
-		
+	
+
+	}
 
 
 

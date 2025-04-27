@@ -64,10 +64,10 @@ int m()
 	float myFloat = 30.5f;
 	int myInt = (int) myFloat;
 
-	int a = 20;
-	float b = (float) a;
+	 a = 20;
+	 b = (float) a;
 
-	int result = (int) (2.4 + 1.6); 
+	 result = (int) (2.4 + 1.6); 
 	cout << result << endl;
 
 	int numEntered1 = 0;
@@ -159,6 +159,7 @@ int m()
 
 	
 
+	return 1;
 
 }
 

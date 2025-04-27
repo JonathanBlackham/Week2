@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ed01c7c1-403c-4bb5-a1c3-ab0beeb3754e}</ProjectGuid>
-    <RootNamespace>ScopeExplorer</RootNamespace>
+    <ProjectGuid>{d42714af-9152-437a-bbe0-0c074938db5d}</ProjectGuid>
+    <RootNamespace>LoopsandIterations</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>VidScope Explorer</ProjectName>
+    <ProjectName>VidLoops and Iterations</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Scope Explorer.cpp" />
+    <ClCompile Include="Loops and Iterations.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

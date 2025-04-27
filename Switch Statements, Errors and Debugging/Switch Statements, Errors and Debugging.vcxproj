@@ -24,6 +24,7 @@
     <ProjectGuid>{d0ca69bc-962f-42ea-89ec-0c6b75ae1789}</ProjectGuid>
     <RootNamespace>SwitchStatementsErrorsandDebugging</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>VidSwitch Statements, Errors and Debugging</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

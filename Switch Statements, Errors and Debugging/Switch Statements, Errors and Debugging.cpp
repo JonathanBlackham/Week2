@@ -69,17 +69,17 @@ int main()
 	{
 	case mainMenu:
 	{
-		showMainMenu();
+		//showMainMenu();
 		break;
 	}
 	case playing:
 	{
-		runGameLogic();
+		//runGameLogic();
 		break;
 	}
 	case gameOver:
 	{
-		showGameOverScreen();
+		//showGameOverScreen();
 		break;
 	}
 	default:

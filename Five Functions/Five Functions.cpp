@@ -3,8 +3,8 @@ using namespace std;
 
 int incrementByone(int numIn)
 {
-	numIn++;
-	int result = numIn++;
+	
+	int result = ++numIn;
 	return result; // Removed "firstNum" from return statement as it is invalid.  
 }
 
