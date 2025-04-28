@@ -11,11 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week1 (Lesson1)", "Week1 (L
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week22", "Week22\Week22.vcxproj", "{7014B1A1-5F08-47ED-A6C8-E0B32069AE76}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Branching and If Statements", "If Statements\If Statements.vcxproj", "{C7E245F5-65B9-4CCB-8681-C93F7A9E6D3B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VidBranching and If Statements", "If Statements\If Statements.vcxproj", "{C7E245F5-65B9-4CCB-8681-C93F7A9E6D3B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch Statements, Errors and Debugging", "Switch Statements, Errors and Debugging\Switch Statements, Errors and Debugging.vcxproj", "{D0CA69BC-962F-42EA-89EC-0C6B75AE1789}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VidSwitch Statements, Errors and Debugging", "Switch Statements, Errors and Debugging\Switch Statements, Errors and Debugging.vcxproj", "{D0CA69BC-962F-42EA-89EC-0C6B75AE1789}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scope Explorer", "Scope Explorer\Scope Explorer.vcxproj", "{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VidScope Explorer", "Scope Explorer\Scope Explorer.vcxproj", "{ED01C7C1-403C-4BB5-A1C3-AB0BEEB3754E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fix the Broken Project", "Fix the Broken Project\Fix the Broken Project.vcxproj", "{DBC1F8AC-639B-4323-8F52-C30D5317274E}"
 EndProject
@@ -31,7 +31,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Odd or even", "Odd or even\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum of Range", "Sum of Range\Sum of Range.vcxproj", "{5BB6F58D-D1E6-45C9-8166-D2C404155D18}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loops and Iterations", "Loops and Iterations\Loops and Iterations.vcxproj", "{D42714AF-9152-437A-BBE0-0C074938DB5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VidLoops and Iterations", "Loops and Iterations\Loops and Iterations.vcxproj", "{D42714AF-9152-437A-BBE0-0C074938DB5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loop Control", "Loop Control\Loop Control.vcxproj", "{D7B928C1-5051-4614-B63C-C15C6CCC3629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,14 @@ Global
 		{D42714AF-9152-437A-BBE0-0C074938DB5D}.Release|x64.Build.0 = Release|x64
 		{D42714AF-9152-437A-BBE0-0C074938DB5D}.Release|x86.ActiveCfg = Release|Win32
 		{D42714AF-9152-437A-BBE0-0C074938DB5D}.Release|x86.Build.0 = Release|Win32
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Debug|x64.ActiveCfg = Debug|x64
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Debug|x64.Build.0 = Debug|x64
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Debug|x86.Build.0 = Debug|Win32
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Release|x64.ActiveCfg = Release|x64
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Release|x64.Build.0 = Release|x64
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Release|x86.ActiveCfg = Release|Win32
+		{D7B928C1-5051-4614-B63C-C15C6CCC3629}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
