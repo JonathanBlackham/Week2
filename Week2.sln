@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task Passing Structs by Ref
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task Struct Relationships and Dynamic Memory", "Task Struct Relationships and Dynamic Memory\Task Struct Relationships and Dynamic Memory.vcxproj", "{643BE096-621D-410E-87D7-D2B5501DF115}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task Basic Class and Object Creation", "Task Basic Class and Object Creation\Task Basic Class and Object Creation.vcxproj", "{528F2F25-4948-4C75-9EF3-8A7AE626602F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{643BE096-621D-410E-87D7-D2B5501DF115}.Release|x64.Build.0 = Release|x64
 		{643BE096-621D-410E-87D7-D2B5501DF115}.Release|x86.ActiveCfg = Release|Win32
 		{643BE096-621D-410E-87D7-D2B5501DF115}.Release|x86.Build.0 = Release|Win32
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Debug|x64.ActiveCfg = Debug|x64
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Debug|x64.Build.0 = Debug|x64
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Debug|x86.ActiveCfg = Debug|Win32
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Debug|x86.Build.0 = Debug|Win32
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Release|x64.ActiveCfg = Release|x64
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Release|x64.Build.0 = Release|x64
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Release|x86.ActiveCfg = Release|Win32
+		{528F2F25-4948-4C75-9EF3-8A7AE626602F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

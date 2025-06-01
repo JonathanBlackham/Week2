@@ -19,7 +19,7 @@ int main()
 	cout << "Value " << arr[2] << ", Address. " << &arr[2] << endl; // Print the third element and its address
 	cout << "Value " << arr[3] << ", Address. " << &arr[3] << endl; // Print the fourth element and its address
 	cout << "Value " << arr[4] << ", Address. " << &arr[4] << endl; // Print the fifth element and its address
-	
+	cout << "Value " << *(arr+4) << ", Address. " << (arr+4) << endl;
 	int* pArr = new int[5]; // Heap allocated array
 	cout << "Enter 5 integers array for heap allocation: " << endl;
 	cin >> pArr[0]; // Input for the first element

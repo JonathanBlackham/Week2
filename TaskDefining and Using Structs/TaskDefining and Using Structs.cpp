@@ -30,7 +30,8 @@ person3->age = 28;
 person3->height = 1.80;
 cout << "Person 1: " << person1.name << ", Age: " << person1.age << ", Height: " << person1.height << "m" << endl;  
 cout << "Person 2: " << person2.name << ", Age: " << person2.age << ", Height: " << person2.height << "m" << endl;  
-
+person person4 = *person3;
+person4.age = 35;
 cout << sizeof(person1) << endl;
 cout << sizeof(person2) << endl;
 cout << sizeof(person3) << endl;
